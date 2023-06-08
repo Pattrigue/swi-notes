@@ -1,0 +1,18 @@
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{enumitem}
+\usepackage[colorlinks=true, allcolors=black]{hyperref}
+\usepackage{float}
+\usepackage{tabularx}
+\usepackage{longtable}
+\usepackage{array}
+
+\graphicspath{{./images/}}
+
+\newcommand{\termdef}[2]{
+    \hline
+    \textit{\hypertarget{#1}{#1}} & #2 \\
+}
+
+\newcommand{\termlink}[1]{\textbf{\hyperlink{#1}{#1}}}
